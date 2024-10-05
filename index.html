@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Genshin Mora Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Character Info -->
+        <div class="character">
+            <h3>Character Mora Calculator</h3>
+            <div id="characterList">
+                <div class="characterEntry">
+                    <!-- Select Character Type -->
+                    <div class="charType">
+                        <label for="CharacterType">Choose Character Type</label>
+                        <select class="CharacterType">
+                            <option value="">Select Character Type</option>
+                            <option value="4">4 Star</option>
+                            <option value="5">5 Star</option>
+                        </select>
+                    </div>
+                    <!-- Input Amount of Characters -->
+                    <div class="charAmount">
+                        <label for="CharacterAmount">Insert Character Amount</label>
+                        <input type="number" class="CharacterAmount" min="1" value="1">
+                    </div>
+                </div>
+            </div>
+            <div class="inc">
+                <button onclick="addCharacter()">Add Another Character</button>
+            </div>
+        </div>
+
+        <!-- Weapon Info -->
+        <div class="weapon">
+            <h3>Weapon Mora Calculator</h3>
+            <div id="weaponList">
+                <div class="weaponEntry">
+                    <!-- Weapon Type Selection -->
+                    <div class="weaponT">
+                        <label for="WeaponType">Choose Weapon Type</label>
+                        <select class="WeaponType">
+                            <option value="">Select Weapon Type</option>
+                            <option value="4">4 Star</option>
+                            <option value="5">5 Star</option>
+                        </select>
+                    </div>
+
+                    <!-- Refinement level Selection -->
+                    <div class="refinement">
+                        <label for="WeaponRefinement">Choose Refinement Level</label>
+                        <select class="WeaponRefinement">
+                            <option value="1">Refinement 1</option>
+                            <option value="2">Refinement 2</option>
+                            <option value="3">Refinement 3</option>
+                            <option value="4">Refinement 4</option>
+                            <option value="5">Refinement 5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="inc">
+                <button onclick="addWeapon()">Add Another Weapon</button>
+            </div>
+        </div>
+
+        <!-- Calculation and Display Results -->
+        <div class="totalAmounts">
+            <button onclick="calculateMora()">Calculate Total Mora</button>
+            <h2>Total Character Mora Needed</h2>
+            <p class="totalCharMora">0</p>
+
+            <h2>Total Weapon Mora Needed</h2>
+            <p class="totalWeaponMora">0</p>
+
+            <h2>Total Mora</h2>
+            <p class="totalMora">0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

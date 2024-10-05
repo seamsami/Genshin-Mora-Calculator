@@ -1,0 +1,83 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+input {
+    font-size: 1.75rem;
+    padding: .5rem .45rem;
+    padding-right: .40rem;
+    letter-spacing: 0.2ch;
+    border-radius: 6px;
+    color: rgb(253, 253, 253);
+    border-color: #1a1a1a;
+    border-style: solid;
+    background: rgb(66, 64, 64);
+    outline: none;
+    transition: border-color 0.2s, color 0.2s;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+label {
+    display: block;
+    margin: 10px;
+    color: rgb(209, 199, 199);
+}
+div.main {
+    padding: .45rem .45rem;
+    padding-right: .45rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#383636;
+    border: solid;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 18px 40px 13px rgb(250, 2, 2);
+}
+select {
+    border-radius: 10px;
+    background-color: #c4bbbb;
+    color: rgb(253, 253, 253);
+    padding: .5rem .45rem;
+    margin-left: 1vw;
+}
+
+div.character {
+    border: solid;
+    border-radius: 10px;
+    background-color: #858282;
+    box-shadow: 0px 10px 15px 0px;
+}
+div.weapon {
+    border: solid;
+    border-radius: 10px;
+    margin-top: 1vw;
+    background-color: #808080;
+    box-shadow: 0px 10px 15px 0px;
+}
+div.inc {
+    margin: 1vw;
+}
+div.totalAmounts {
+    border: solid;
+    border-radius: 10px;
+    margin-top: 1vw;
+    background-color: #c9c9c9;
+    box-shadow: 0px 10px 15px 0px;
+}
+
+p, h2 {
+    padding-left: 1vw;
+}
+
+p {
+    color: rgb(121, 0, 0);
+}
