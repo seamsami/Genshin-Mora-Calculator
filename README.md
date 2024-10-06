@@ -19,7 +19,7 @@ The Genshin Mora Calculator is a web-based tool designed for players of Genshin 
    https://github.com/seamsami/Genshin-Mora-Calculator
  2. Navigate to the project directory:
     ```bash
-     cd genshin-mora-calculator
+     cd Genshin-Mora-Calculator
     ```
   3. Open the `index.html` file in your web browser to view and use the application.
 ## Usage
