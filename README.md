@@ -18,9 +18,9 @@ The Genshin Mora Calculator is a web-based tool designed for players of Genshin 
    ```bash
    https://github.com/seamsami/Genshin-Mora-Calculator
  2. Navigate to the project directory:
-```bash
-    cd genshin-mora-calculator
-```
+   ```bash
+   cd genshin-mora-calculator
+   ```
   3. Open the `index.html` file in your web browser to view and use the application.
 ## Usage
  1. Select Character Type: Choose between 4-star and 5-star characters.
