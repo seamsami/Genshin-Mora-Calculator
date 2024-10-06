@@ -64,7 +64,10 @@ div.weapon {
     box-shadow: 0px 10px 15px 0px;
 }
 div.inc {
-    margin: 1vw;
+    margin: 10px;
+    box-shadow: 0px 10px 15px 0px;
+    width: fit-content;
+    border-radius: 10px;
 }
 div.totalAmounts {
     border: solid;
@@ -74,10 +77,32 @@ div.totalAmounts {
     box-shadow: 0px 10px 15px 0px;
 }
 
-p, h2 {
+p, h2, h3 {
     padding-left: 1vw;
 }
 
 p {
     color: rgb(121, 0, 0);
+}
+
+button {
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+
+div.btns {
+    padding: .45rem .45rem;
+    padding-right: .45rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+button.btn {
+    margin-top: 1vw;
+    box-shadow: 0px 10px 15px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
 }
