@@ -52,8 +52,8 @@ function calculateMora() {
     const weaponEntries = document.querySelectorAll('.weaponEntry');
 
     // Mora Cost Constants
-    const moraFor5StarChar = 1670000; // Mora cost to level a 5-star character to 90
-    const moraFor4StarChar = 1670000; // Mora cost to level a 4-star character to 90
+    const moraFor5StarChar = 6630900; // Mora cost to level a 5-star character to 90
+    const moraFor4StarChar = 6630900; // Mora cost to level a 4-star character to 90
     const moraFor5StarWeapon = 750000; // Mora cost to level a 5-star weapon to 90
     const moraFor4StarWeapon = 600000; // Mora cost to level a 4-star weapon to 90
 
@@ -88,7 +88,7 @@ function calculateMora() {
     const totalMora = totalCharMora + totalWeaponMora;
 
     // Display the results
-    document.querySelector('.totalCharMora').textContent = totalCharMora.toLocaleString() + " Mora";
+    document.querySelector('.totalCharMora').textContent = totalCharMora.toLocaleString() + " Mora (lvl 10 Tallent Included)";
     document.querySelector('.totalWeaponMora').textContent = totalWeaponMora.toLocaleString() + " Mora";
     document.querySelector('.totalMora').textContent = totalMora.toLocaleString() + " Mora";
 }
