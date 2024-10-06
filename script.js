@@ -88,7 +88,7 @@ function calculateMora() {
     const totalMora = totalCharMora + totalWeaponMora;
 
     // Display the results
-    document.querySelector('.totalCharMora').textContent = totalCharMora.toLocaleString() + " Mora (lvl 10 Tallent Included)";
+    document.querySelector('.totalCharMora').textContent = totalCharMora.toLocaleString() + " Mora (lvl 10 Talent Included)";
     document.querySelector('.totalWeaponMora').textContent = totalWeaponMora.toLocaleString() + " Mora";
     document.querySelector('.totalMora').textContent = totalMora.toLocaleString() + " Mora";
 }
